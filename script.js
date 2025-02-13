@@ -34,7 +34,7 @@ yesButton.addEventListener('click', () => {
     noButton.style.zIndex = -1;
 });
 
-noButton.addEventListener('mouseover', () => {
+noButton.addEventListener('click', () => {
     console.log('No button clicked');
     noButton.style.position = 'absolute';
     noButton.style.top = `calc(${Math.random() * 100}% - 35px)`;
